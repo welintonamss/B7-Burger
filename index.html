@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B7 Burger</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu-icon").addEventListener("click", function(){
+                    if (document.querySelector(".menu-mobile").style.display == 'flex'){
+                        document.querySelector(".menu-mobile").style.display= 'none';
+                    } else {
+                        document.querySelector(".menu-mobile").style.display='flex'
+                    }
+                })
+           
+            }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="">B7 <span>&bull; </span>Burger</a>
+            </div>
+            <nav>
+                <ul class="leftside">
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Burgers</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+                <div class="rightside">
+                    <a href="" class="button">Fazer Pedido</a>
+                </div>
+            </nav>
+            <div class="menu">
+                <div class="menu-icon">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+                <div class="menu-mobile">
+                    <ul class="leftside">
+                        <li><a href="">Início</a></li>
+                        <li><a href="">Burgers</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                    <div class="rightside">
+                        <a href="" class="button">Fazer <br>Pedido</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="leftside">
+                <h1>O Hamburguer Mais Delicioso.😋</h1>
+                <p>A primeira hamburgueria virtual que você faz o pedido online e come o hamburguer através do computador.</p>
+                <a href="" class="button">Fazer Pedido</a>
+            </div>
+            <div class="rightside">
+                <img src="assets/burgers/heroBurger.png" alt="Burguer Delicioso">
+            </div>
+        </div>
+    </section>
+    <section class="search">
+        <div class="container">
+            <div class="title">
+                Pesquise o seu <br> Hamburguer Favorito!
+            </div>
+            <div class="sides">
+                <div class="leftside">
+                    <input type="search" placeholder="Digite o nome do Burguer">
+                </div>
+                <div class="rightside">
+                    <select name="" id="">
+                        <option value="">Selicionar Categoria</option>
+                        <option value="burguers">Burgers</option>
+                        <option value="vegetariano">Vegetariano</option>
+                        <option value="kids">Kids</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="container">
+            <div class="products-grid">
+                <a href="" class="product-item">
+                    <div class="warning">Promoção</div>
+                    <div class="photo">
+                        <img src="assets/burgers/burger1.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="product-category">Tradicional</div>
+                        <div class="product-name">Texas Burger</div>
+                        <div class="product-price">R$ 25,50</div>
+                    </div>
+                </a>
+                <a href="" class="product-item">
+                    <div class="photo">
+                        <img src="assets/burgers/burger2.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="product-category">Tradicional</div>
+                        <div class="product-name">Flórida Burger</div>
+                        <div class="product-price">R$ 28,50</div>
+                    </div>
+                </a>
+                <a href="" class="product-item">
+                    <div class="photo">
+                        <img src="assets/burgers/burger3.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="product-category">Tradicional</div>
+                        <div class="product-name">New York Burger</div>
+                        <div class="product-price">R$ 28,50</div>
+                    </div>
+                </a>
+                <a href="" class="product-item">
+                    <div class="photo">
+                        <img src="assets/burgers/burger4.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="product-category">Tradicional</div>
+                        <div class="product-name">Califórnia Burger</div>
+                        <div class="product-price">R$ 29,50</div>
+                    </div>
+                </a>
+                <a href="" class="product-item">
+                    <div class="photo">
+                        <img src="assets/burgers/burger1.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="product-category">Kids</div>
+                        <div class="product-name">Kids Burger</div>
+                        <div class="product-price">R$ 19,50</div>
+                    </div>
+                </a>
+                <a href="" class="product-item">
+                    <div class="photo">
+                        <img src="assets/burgers/burger2.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="product-category">Vegetariano</div>
+                        <div class="product-name">Veg Burger</div>
+                        <div class="product-price">R$ 26,50</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <a href="">B7 <span>&bull; </span>Burger</a>
+            </div>
+            <div class="copyright">
+                Created by <a href="">AWST Technology</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
